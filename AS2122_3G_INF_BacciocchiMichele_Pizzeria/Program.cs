@@ -17,7 +17,7 @@ namespace AS2122_3G_INF_BacciocchiMichele_Pizzeria
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmMain());
         }
     }
 }

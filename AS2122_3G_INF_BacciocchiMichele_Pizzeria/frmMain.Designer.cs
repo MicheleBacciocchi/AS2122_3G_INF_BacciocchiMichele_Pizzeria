@@ -1,7 +1,7 @@
 ﻿
 namespace AS2122_3G_INF_BacciocchiMichele_Pizzeria
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -134,6 +134,7 @@ namespace AS2122_3G_INF_BacciocchiMichele_Pizzeria
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "3G Lab 2.3 Bacciocchi Michele Pizzeria";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
